@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Книжная полка</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body background="./img/book-1659717_1280.jpg">
+    <p id="head_word">Книжная полка</p>
+    <input id="button_word" value="Добавить книгу" type="button" onclick="showModal_add();" class="btn"></input>
+    <div id="modal_add">
+        <div id="windows">
+            <div class="modal_head">
+                <h2>Введите данные книги</h2>
+            </div>
+            <div class="modal_container">
+                <b>Книга:</b>
+                <br>
+                <input id="name" placeholder="* Введите название книги" class="textbox" required/>
+                <b>Автор:</b>
+                <br>
+                <input id="author" placeholder="* Введите ФИО автора" class="textbox" required/>
+                <b>Год:</b>
+                <br>
+                <input id="year" placeholder="* Укажите год выпуска" class="textbox" required/>
+                <b>Ссылка:</b>
+                <br>
+                <input id="link" placeholder="* Укажите ссылку на обложку" class="textbox" required/>
+                <input name="submit" class="btn " type="submit" value="Отправить" onclick="createBook();"/>
+                <input name="close" class="btn" type="button" value="Закрыть" onclick="hideModal_add()"/>
+            </div>
+        </div>
+    </div>
+    <div id="modal_edit">
+        <div id="windows">
+            <div class="modal_head">
+                <h2>Отредактируйте данные</h2>
+            </div>
+            <div class="modal_container" id="edit">
+                <b>Книга:</b>
+                <br>
+                <input id="name_edit" placeholder="* Введите название книги" class="textbox" required/>
+                <b>Автор:</b>
+                <br>
+                <input id="author_edit" placeholder="* Введите ФИО автора" class="textbox" required/>
+                <b>Год:</b>
+                <br>
+                <input id="year_edit" placeholder="* Укажите год выпуска" class="textbox" required/>
+                <b>Ссылка:</b>
+                <br>
+                <input id="link_edit" placeholder="* Укажите ссылку на обложку" class="textbox" required/>
+            </div>
+        </div>
+    </div>
+    <div id="modal_back"></div>
+</body>
+</html>

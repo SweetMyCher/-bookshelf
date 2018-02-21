@@ -1,0 +1,151 @@
+body {
+   
+}
+.books {
+        margin-left: 300px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 700px;
+        height: 400px;
+        background-color: #e2e2e2;
+        display: block;
+        border: 1px solid black;
+
+} 
+
+#head_word{
+    font-size: 50px;
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 530px;
+    padding-left: 210px;
+    border-bottom: black solid 1px;
+    
+}
+#button_word{
+    
+   margin-left: 600px;
+ margin-top: -100px;
+}
+.books_container {
+        margin-left: 300px;
+        margin-top: 50px;
+}
+.name_box {
+        margin-left: 300px;
+        margin-top: -370px;
+}
+.book_name {
+        font-size: 25px;
+        border-bottom: 2px solid #3e87d2;
+}
+.info_box {
+        margin-bottom: 10px;
+        font-size: 16px;
+}
+.author_word, .year_word {
+     border-bottom: 2px solid #3e87d2;
+}
+.buttons_box {
+    padding-top: 180px;
+    padding-left: 360px;
+    
+
+}
+.btn_edit {
+	padding: 10px;
+}
+.img_src {
+    border: 1px solid black;
+    width:250px;
+    height:398px;
+}
+
+.modal_container {
+  padding: 20px;
+
+}
+.modal_container p {
+    margin: 0;
+}
+.modal_head{
+    padding: 20px 20px;
+    border-bottom: #eaeaea solid 1px;
+    margin: 1px;
+}
+.modal_head h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn {
+    background: #FFFFFF;
+    border: #555 solid 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+    margin: 5px;
+}
+#back{
+	margin: 200px auto;
+	padding-top: 500px;
+        width: 700px;
+        height: 400px;
+        background-color: #FFFFFF;
+
+}
+
+.textbox{
+    height:45px;
+    width:100%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 1px solid;
+    box-sizing:border-box;
+    font-size:14px; 
+    padding:8px;
+    margin-bottom:20px;  
+}
+
+#modal_back {
+
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:none;
+background: grey;
+z-index:1;
+}
+
+#modal_add, #modal_edit {
+  
+margin:  auto;
+border:1px solid black;
+position:fixed;
+background: #eff7ff;
+z-index:3;
+display:none;
+width: 500px;
+height: 500px;
+left: 50%;
+top: 50%;
+margin-left: -250px;
+margin-top: -250px;
+border-radius: 10px;
+}
+
+#windows {
+margin:  auto;
+padding:1px;
+width: 500px;
+height: 500px;
+border: 2px black; 
+
+}
